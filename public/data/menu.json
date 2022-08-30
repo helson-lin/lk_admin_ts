@@ -1,0 +1,19 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "path": "/",
+            "name": "首页",
+            "icon": "md-home",
+            "pid": "0",
+            "children": []
+        },
+        {
+            "path": "/admin/person",
+            "name": "人员管理",
+            "icon": "ios-happy",
+            "pid": "0",
+            "children": []
+        }
+    ]
+}
