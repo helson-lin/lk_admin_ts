@@ -1,0 +1,24 @@
+{
+    "code": 200,
+    "data": {
+        "list": [
+            {
+                "uid": "1",
+                "username": "Senator",
+                "department": "技术部",
+                "crtTm": "2022-01-01 00:00"
+            },
+            {
+                "uid": "2",
+                "username": "Senator",
+                "department": "技术部",
+                "crtTm": "2022-01-01 00:00"
+            }
+        ],
+        "paginations": {
+            "page": 1,
+            "pageSize": 10,
+            "total": 2
+        }
+    }
+}

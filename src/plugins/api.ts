@@ -8,38 +8,32 @@
  * ```
  */
 const apiList = {
-    'getData': '/getData',
-    'othersData': '/othersData',
-    'getMenuData': '/data/menu.json',
+    getMenuData: '/data/menu.json',
+    getUserData: '/data/user.json',
 }
 /**
  * @description: 所有的接口列表类型
  * @param {*} 无参数
  * @return {*} 无返回值
  */
-export type apiKeyType = keyof typeof apiList;
+export type apiKeyType = keyof typeof apiList
 /**
  * @description: 接口对应的数据返回值类型
  * @param {*} 无参数
  * @return {*} 无返回值
  */
-export interface apiKeyDataType {
-    'getData': {
-        code: number;
+export type apiKeyDataType = {
+    getUserData: {
+        code: number
         data: {
-            name: string;
-            age: number;
-            work: string[]
+            list: Api.UserList
+            pagination: Api.Pagniation
         }
-    },
-    'othersData': {
-        code: number;
-        data: string[]
-    },
-    'getMenuData': {
-        code: number;
-        data: MenuList;
+    }
+    getMenuData: {
+        code: number
+        data: MenuList
     }
 }
 
-export default apiList;
+export default apiList

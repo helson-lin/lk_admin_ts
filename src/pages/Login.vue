@@ -1,3 +1,5 @@
 <template>
-    <div class="lk_login">login</div>
+    <div class="lk_login">
+        
+    </div>
 </template>

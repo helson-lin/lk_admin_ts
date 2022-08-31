@@ -3,15 +3,15 @@
     "data": [
         {
             "path": "/",
-            "name": "首页",
-            "icon": "md-home",
+            "name": "面板",
+            "icon": "iconfont icon-dashboard",
             "pid": "0",
             "children": []
         },
         {
             "path": "/admin/person",
             "name": "人员管理",
-            "icon": "ios-happy",
+            "icon": "iconfont icon-user",
             "pid": "0",
             "children": []
         }
