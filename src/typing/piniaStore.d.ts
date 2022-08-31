@@ -1,13 +1,14 @@
 declare interface MenuItem {
-    path: string;
-    name: string;
-    icon?: string;
+  path: string
+  name: string
+  icon?: string
+  pid?: string
 }
 
-declare type MenuList = MenuItem[];
+declare type MenuList = MenuItem[]
 
 declare interface MenuStore {
-    list: MenuList,
-    index: number,
-    active: null | string,
-} 
+  list: MenuList
+  activeMenu: MenuItem[]
+  active: null | string
+}
